@@ -9,3 +9,7 @@ edition = "2021"
 cargo-audit = "0.17.4"
 cargo-tarpaulin = "0.25.1"
 cargo-watch = "8.4.0"
+
+[dependencies]
+actix-web = "4"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
