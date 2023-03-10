@@ -5,4 +5,7 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[dev-dependencies]
+cargo-audit = "0.17.4"
+cargo-tarpaulin = "0.25.1"
+cargo-watch = "8.4.0"
